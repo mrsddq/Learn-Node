@@ -1,0 +1,7 @@
+install ejs
+app.set
+    view engine
+    view path
+views directory + file
+render+res.render
+extension is .ejs
