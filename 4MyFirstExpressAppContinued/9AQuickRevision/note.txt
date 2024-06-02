@@ -1,0 +1,11 @@
+process
+    index.js
+    npm init
+    npm install express
+        server
+    npm install ejs
+        use ejs
+        path of views
+        ejs file
+    form + post req
+    static
