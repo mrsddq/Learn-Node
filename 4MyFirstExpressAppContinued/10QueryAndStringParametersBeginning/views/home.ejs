@@ -9,13 +9,15 @@
     <h1 id="page-heading">
         <i class="fas fa-address-book"></i>
         My Contacts List</h1>
-    <div>
+    <div id="contacts-list-container">
         <ul>
             <%for (let i of contact_List){%>
-            <li>
-                <p><%= i.name%></p>
-                <p><%= i.phone%></p>
-            </li>
+                <li class="contact">
+                    <div class="details">
+                        <p><%= i.name%></p>
+                        <p><%= i.phone%></p>
+                    </div>
+                </li>
             <% } %>
         </ul>
     </div>
