@@ -44,6 +44,10 @@ app.post('/create-contact', function(req, res){
     return res.redirect('back');
 });
 
+app.get('/delete-contact', function(req,res){
+    let phone=
+});
+
 app.listen(port, function(err){
     if (err){
         console.log('Error in running the server', err);
